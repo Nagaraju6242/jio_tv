@@ -1,0 +1,4 @@
+index.js
+venv/
+db.sqlite3
+__pycache__/

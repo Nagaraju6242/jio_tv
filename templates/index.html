@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <title>Jio TV</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="heading">Jio TV</h1>
+
+    <div class="channels">
+      <input type="search" placeholder="Search..." id="search" />
+      <div class="cards">
+        <div class="card hidden">
+          <a href="">
+            <img
+              src="https://jiotv.catchup.cdn.jio.com/dare_images/images/ETV_HD.png"
+              alt=""
+            />
+            <div class="card-content">
+              <h5></h5>
+              <div class="categories">
+                <p class="lang"></p>
+                <p class="category"></p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="{% static 'js/index.min.js' %}"></script>
+  </body>
+</html>
