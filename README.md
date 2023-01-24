@@ -3,7 +3,7 @@
 ## Installation
 clone the repo
 ```
-git clone
+git clone https://github.com/Nagaraju6242/jio_tv.git
 ```
 
 ## Install requirements
